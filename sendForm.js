@@ -1,4 +1,4 @@
-//* Axios Post Forms - Gercek Hesap | Demo Hesap | Hesap Taşı
+//* Axios Post Forms
 function leadForm(a) {
     var data = {
         name: $('#username').val(),
@@ -6,12 +6,12 @@ function leadForm(a) {
         phone: $('#phone').val(),
         ref:a
     }
-    axios.post("https://vakifapi.fxcrm.me/api/new",data,{
+    axios.post("YOUR API IS HERE",data,{
         headers:{
-            "token": "2s98XDwWauJNjpXQRFvPgUwQFQrEEQ"
+            "token": "YOUR TOKEN IS HERE"
         }
     }).then(a => {
-        Swal.fire("Başarılı", "Başvurunuz tarafımıza ulaşmıştır","success");
+        Swal.fire("Success", "Your application has been received by us","success");
     })
 }
 
