@@ -14,3 +14,6 @@ function leadForm(a) {
         Swal.fire("Başarılı", "Başvurunuz tarafımıza ulaşmıştır","success");
     })
 }
+
+
+
